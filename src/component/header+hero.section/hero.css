@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.hero-container{
+    width: auto;
+    height: 1480px;
+    background-image: url(/public/hero-background.png);
+}
+
+.header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 83px;
+    top: 36px;
+    border-radius: 500px;
+    padding-top: 16px;
+    padding-right: 28px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    gap: 10px;
+    background: #FBFBFB;
+}
+.logo img{
+    position: relative;
+    width: 162px;
+    height: 55px;
+    top: -10px;
+}
+.header-pages{
+    display: flex;
+    gap: 0px;
+}
+.header-pages{
+    align-items: center;
+    margin-left: 60px;
+}
+.header-pages button{
+    font-family:'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    width: 70.25773620605469px;
+    height: 20px;
+    width: 129px;
+    border: none;
+    background-color: white;
+}
+.letstalk button{
+    width: 161px;
+    height: 51px;
+    border-radius: 100px;
+    background: linear-gradient(94.03deg, #FBB525 4.58%, #B657B8 28.41%, #943AE5 53.22%, #6B67F6 74.61%, #49AFF5 95.34%);
+    color: #ffffff;
+    border-style: none;
+    margin-left: 150px;
+
+}
+.hero{
+    text-align: center;
+}
+.h1{
+    font-family:'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 346px;
+    color: #ffffff;
+}
+.h1 span{
+    background: linear-gradient(90deg, #5130F1 13.32%, #C585D8 31.82%, #FA4B9A 55.82%, #FF8C6C 74.32%, #FF3800 95.82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.p{ 
+    color: #ffffff;
+    font-family:'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.hero button{
+    color: #ffffff;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17.6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 282px;
+    height: 57px;
+    margin-top: 70px;
+    border-radius: 32px;
+    background: #1E1C26;
+    border-style: none;
+
+}
