@@ -1,0 +1,691 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+.feature-container{
+    text-align: center;
+}
+.feature-background{
+    position: relative;
+    height: 840px;
+    width: auto;
+    background-image: url(/public/featurebackground.png);
+    background-size: cover;
+    top: -220px;
+    z-index: -1;
+}
+.feature-headline h2{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2F327D;
+}
+.feature-headline p{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #0F172A;
+}
+.feature-background img{
+    margin-top: 300px;
+    z-index: 0;
+    width: 1100px;
+    height: 640px;
+    border-radius: 20px;
+
+}
+.image5{
+    margin-top: -30px;
+    z-index: 0;
+}
+.inside-safari{
+    position: relative;
+    display: flex;
+    z-index: 1000;
+}
+.artizence-work{
+    display: flex;
+    margin-top: -300px;
+    margin-left: 45px;
+}
+.smallscreen{
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: -450px;
+    height: 737px;
+    width: 330px;
+    top: 400px;
+}
+.project-title h2{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2F327D;
+    margin-top: 200px;
+}
+.project-title p{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.project-title h2 span{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+    background: linear-gradient(90deg, #5130F1 13.32%, #C585D8 31.82%, #FA4B9A 55.82%, #FF8C6C 74.32%, #FF3800 95.82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.Row{
+    margin-top: 100px;
+}
+.insight-container{
+    display: flex;
+    margin-top: 150px;
+}
+.insight-heading{
+    background-color: #372562;
+    width: 382px;
+    height: 682px;
+
+}
+.insight-heading h1{
+    color: #ffffff;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-top: 175px;
+
+
+}
+.insight-heading p{
+    color: #ffffff;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+.insight-main{
+    display: flex;
+    background-color: #1E1C26;
+    width: 1158px;
+    height: 682px;
+
+}
+.insight-main img{
+    width: 223px;
+    height: 283px;
+    border-radius: 42px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.insight-main-text{
+    display: flex;
+    position: relative;
+    width: 901px;
+    height: 375px;
+    border-radius: 20px;
+    gap: 53px;
+    padding-top: 20px;
+    padding-right: 11px;
+    padding-bottom: 20px;
+    padding-left: 11px;
+    margin-top: 160px;
+    background-color: #ffffff;
+    margin-left: 100px;
+}
+
+.insight-text{
+    margin-left: 30px;
+}
+.insight-text h4{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle
+}
+
+.insight-text p{
+    width: 433px;
+    font-family: "Inter",sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+.people-services{
+    background-image: url(/public/people-background.png);
+    background-size: cover;
+    margin-left: -20px;
+    height: 1100px;
+}
+.service-info{
+    display: flex;
+}
+.people-headline{
+    position: relative;
+    top:250px;
+}
+.people-headline h2{
+    position: relative;
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 61.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+.people-headline p{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 61.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+.service-info{
+    position: relative;
+    top:250px;
+}
+.service-info div{
+    width: 332px;
+    height: 460px;
+    margin-left: 8.75%;
+}
+.service-info div h2{
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+.service-info div p{
+    font-family: "Inter",sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+.blog-container{
+    background-image: url(/public/blogbackground.png);
+    background-size: cover;
+    height: 1100px;
+    width: 100%;
+    z-index: 5;
+}
+.blog-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-cards{
+    display: flex;
+}
+.arrow-left{
+    width: 64px;
+    height: 64px;
+    border-radius: 9999px;
+    border-width: 1px;
+    margin-left: 20px;
+    background: transparent;
+}
+.arrow-right{
+    width: 64px;
+    height: 64px;
+    border-radius: 9999px;
+    border-width: 1px;
+    margin-right: 20px;
+    background: transparent;
+}
+.blog-title{
+    margin-top: 50px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 61.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #2F327D;
+}
+.blog-subtitle{
+    margin-top: -30px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 61.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+.contact-container{
+    background-image: url(/public/contactbackground.png);
+    background-size: cover;
+    height: 3100px;
+    margin-left: -10px;
+}
+.contact-headline h2{
+    position: relative;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: #2F327D;
+    top: -200px;
+
+}
+.contact-headline p{
+    position: relative;
+    font-family: "Poppins",sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;   
+    top: -200px; 
+}
+.all-contact{
+    display: flex;
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.all-contact p{
+    font-family: "Inter",sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    width: 576.5px;
+    color: #ffffff;
+}
+.all-contact h2{
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+.all-contact div{
+    margin-left: -300px;
+    margin-top: 120px;
+}
+.all-contact img{
+    margin-left: 400px;
+}
+.all-contact1{
+    display: flex;
+    text-align: left;
+    margin-top: 400px;
+}
+.all-contact1 p{
+    font-family: "Inter",sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    width: 576.5px;
+    color: #ffffff;
+}
+.all-contact1 h2{
+    
+    font-family: "Inter",sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+.all-contact1 div{
+    margin-left: -30px;
+    margin-top: 120px;
+    color: #ffffff;
+}
+.all-contact2{
+    display: flex;
+    text-align: left;
+    margin-top: 400px;
+}
+.all-contact2 p{
+    font-family: "Inter",sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    width: 576.5px;
+}
+.all-contact2 h2{
+    font-family: "Inter",sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+.all-contact2 div{
+    margin-left: 320px;
+    margin-top: 120px;
+    color: #ffffff;
+}
+.all-contact2 img{
+    margin-left: 150px;
+}
+.button1{
+    width: 219px;
+    height: 57px;
+    border-radius: 32px;
+    gap: 15px;
+    background-color: #ffffff;
+    color: #1e1681;
+    border: none;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 40px;
+}
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .feature-container{
+    margin-top: 150px;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .feature-background, .insight-container, .insight-main, .people-services, .blog-container, .contact-container{
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .image5 img{
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin-top: 40px;
+  }
+  .feature-background {
+    height: auto;
+    min-height: 200px;
+    background-size: cover;
+    top: 0;
+    padding: 0;
+  }
+  .feature-background img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  .feature-headline h2, .project-title h2, .project-title h2 span {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .feature-headline p, .project-title p, .insight-text p {
+    font-size: 10px;
+    width: 100%;
+    margin: 0;
+  }
+  .artizence-work{
+    text-align: center;
+  }
+  .artizence-work > img{
+    width: 410px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: -14%;
+  }
+  .smallscreen{
+    height: 200px;
+    width: 200%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -80px;
+  }
+  .smallscreen img{
+    position: relative;
+    width: 100px;
+    left: 320px;
+  }
+  .Row img{
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+  }
+  .insight-container{
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    gap: 8px;
+    padding: 0;
+    margin-top: 100px;
+
+  } .insight-main, .service-info, .blog-cards, .all-contact, .all-contact1, .all-contact2 {
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    gap: 8px;
+    padding: 0;
+  }
+  .insight-heading{
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .insight-main {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  .insight-heading h1 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .insight-heading p {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .insight-main img {
+    width: 60px;
+    height: auto;
+    margin: 0 auto 8px auto;
+    border-radius: 8px;
+  }
+  .insight-main-text {
+    width: 50%;
+    height: 135px;
+    margin: 0;
+    padding: 6px;
+    padding-right: 200px;
+    gap: 6px;
+    border-radius: 8px;
+  }
+  .insight-text h4 {
+    font-size: 12px;
+    margin-left: -30px;
+  }
+  .insight-text p {
+    width: 100px;
+    font-size: 7px;
+    background-color: #ffffff;
+    margin-left: -30px;
+  }
+  .people-services {
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    background-size: cover;
+    padding: 0;
+    margin-top: 100px;
+    overflow-y: hidden;
+  }
+  .people-headline{
+    position: relative;
+    top: 10px;
+  }
+  .people-headline h2 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: -10px;
+  }
+  .people-headline p {
+    font-size: 10px;
+    line-height: 16px;
+    margin-top: 4px;
+  }
+  .service-info{
+    position: relative;
+    top: -0px;
+  }
+  .service-info div {
+    width: 90%;
+    height: auto;
+    margin: 0 auto 8px auto;
+    padding: 6px;
+  }
+  .service-info div img{
+    width: 100%;
+  }
+  .service-info div h2 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .service-info div p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .blog-container {
+    height: auto;
+    padding: 0;
+    margin-top: 100px;
+  }
+  .blog-title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+  .blog-subtitle {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 0;
+  }
+  .arrow-left, .arrow-right {
+    width: 32px;
+    height: 32px;
+    margin: 0 4px;
+    align-items: center;
+    text-align: center
+  }
+  .blog-cards img{
+    width: 100%;
+    height: auto;
+  }
+  .contact-container {
+    height: auto;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 150px ;
+    padding-top: 150px;
+  }
+  .contact-headline h2 {
+    position: relative;
+    font-size: 14px;
+    top: 0;
+    top: -80px;
+    z-index: 1000;
+  }
+  .contact-headline p {
+    position: relative;
+    font-size: 10px;
+    top: -60px;
+    margin-top: 4px;
+    color: #ffffff;
+  }
+  .all-contact, .all-contact1, .all-contact2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    gap: 8px;
+  }
+  .all-contact p,.all-contact1 p, .all-contact2 p {
+    font-size: 10px;
+    width: 50%;
+    margin: 0;
+    margin-left: 30px;
+  }
+  .all-contact h2, .all-contact1 h2, .all-contact2 h2 {
+    font-size: 14px;
+    margin: 0;
+    margin-left: 30px;
+  }
+  .all-contact div, .all-contact1 div, .all-contact2 div {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+  }
+  .all-contact img{
+    margin: 0 auto;
+    max-width: 140px;
+    height: auto;
+    display: flex;
+  }
+  .all-contact1 img{
+    margin-top: 50px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+
+  } .all-contact2 img {
+    margin: 0 auto;
+    max-width: 140px;
+    height: auto;
+    display: flex;
+  }
+  .button1 {
+    width: 80px;
+    height: 28px;
+    font-size: 10px;
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+}

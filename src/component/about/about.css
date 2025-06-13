@@ -1,0 +1,140 @@
+.about-container{
+    width: 100%;
+    height: 145.53518676757812px;
+    text-align: center;
+}
+.heading-trust h2{
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 160%;
+    letter-spacing: 2%;
+    color: #696984;
+}
+.trusts-container{
+    display: flex;
+    width: 100%;
+    height: 67.60420227050781px;
+    margin-left: 12.5%;
+    gap: 40px;
+}
+.trust{
+    width: 151.33641052246094px;
+    height: 40.714874267578125px;
+}
+.trust1{
+    width: 168.30322265625px;
+    height: 47.698543548583984px;
+}
+.trust2{
+    width: 161.2758026123047px;
+    height: 45.93333435058594px;
+}
+.trust3{
+    width: 153.64102172851562px;
+    height: 36.092308044433594px;
+}
+.trust4{
+    width: 130.4349822998047px;
+    height: 50.092308044433594px;
+}
+.alltext{
+    width: 1317.28076171875px;
+    height: 733.9999389648438px;
+    margin-left: 6.25%;
+}
+.text1{
+    margin-top: 100px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2F327D;
+
+}
+.text1 span{
+    background: linear-gradient(93.14deg, #F48C06 25.76%, #6B64F6 55.15%, #BB5BB2 85.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.text2{
+    font-family:"Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #2F327D;
+    margin-top: -25px;
+}
+.text3{
+    font-family: "Poppins",sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #696984;
+    margin-top: 40px;
+}
+.text4{
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness:5%;
+    color: #23BDEE;
+
+
+}
+@media (max-width: 768px) {
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .about-container {
+        height: auto;
+        padding: 10px 0;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    .heading-trust h2 {
+        font-size: 16px;
+    }
+    .trusts-container {
+        gap: 10px;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+    }
+    .trust, .trust1, .trust2, .trust3, .trust4 {
+        width: 50px;
+        height: auto;
+        max-width: 100%;
+    }
+    .alltext {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 10px;
+        max-width: 100%;
+    }
+    .text1 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .text2, .text3, .text4 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
